@@ -79,10 +79,10 @@
   }
 
   // Activate animated progress bar
-  var btnToggleAnimatedProgress = document.getElementById('btnToggleAnimatedProgress')
-  if (btnToggleAnimatedProgress) {
-    btnToggleAnimatedProgress.addEventListener('click', function () {
-      btnToggleAnimatedProgress.parentNode
+  var inputToggleAnimatedProgress = document.getElementById('inputToggleAnimatedProgress')
+  if (inputToggleAnimatedProgress) {
+    inputToggleAnimatedProgress.addEventListener('change', function () {
+      inputToggleAnimatedProgress.parentNode
         .querySelector('.progress-bar-striped')
         .classList
         .toggle('progress-bar-animated')
